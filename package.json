@@ -1,0 +1,25 @@
+{
+  "name": "mertimran-com",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "3.8.2",
+    "@nuxt/eslint": "1.10.0",
+    "@nuxt/hints": "1.0.0-alpha.2",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/ui": "4.2.1",
+    "better-sqlite3": "^12.4.6",
+    "eslint": "^9.0.0",
+    "nuxt": "^4.2.1",
+    "typescript": "^5.6.3",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  }
+}
