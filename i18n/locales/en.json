@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "hero": {
+    "greet": "Hi, I'm Mert",
+    "about": "I am a fourth-year Computer Engineering undergraduate with a strong foundation in software development and a passion for creating efficient solutions.",
+    "resume": {
+      "button": "Resume",
+      "link": "/resumes/mert-kasim-imran-november-2025.pdf"
+    },
+    "language": "To get my resume in another language, change your language preferences from the navigation bar"
+  },
+  "technologies": {
+    "title": "Technologies I work with",
+    "description": "I have experience with a diverse range of programming languages, frameworks, tools, database management, scripting, and virtualization technologies."
+  },
+  "experience": {
+    "title": "Experience & Education",
+    "description": "While I still am a undergraduate student, I do have some personal and professional experience",
+    "bots": {
+      "title": "Social Media Bots and Scripting",
+      "description": "Started building social media bots and automated small tasks using Python and Bash"
+    },
+    "servers": {
+      "title": "Homeservers and Automation",
+      "description": "Started building my very own homeservers out of old decommissioned PCs and wrote my own installation manuals and scripts for later use"
+    },
+    "university": {
+      "title": "Enrolled University",
+      "description": "Started my career journey in Computer Engineering department of Ankara Science University"
+    },
+    "professional": {
+      "title": "First Professional Project",
+      "description": "My university needed a process automation system and someone to maintain the promotional website, I gladly took both of these projects"
+    },
+    "graduation": {
+      "title": "Graduation",
+      "description": "I will be graduating this year in June with 3.5+ GPA"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "readAll": "Read All",
+    "link": "Project Page",
+    "goBack": "Go Back",
+    "technologies": "Technologies Used:"
+  },
+  "footer": {
+    "copyright": "Copyright",
+    "reserved": "All Rights Reserved"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "errors": {
+    "404": {
+      "title": "Page not found",
+      "subtitle": "The page you are looking for does not exist"
+    },
+    "500": {
+      "title": "Internal Server Error",
+      "subtitle": "Something went wrong on our end"
+    },
+    "goBack": "Back to home"
+  }
+}

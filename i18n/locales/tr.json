@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "experience": "Deneyimim",
+    "projects": "Projelerim",
+    "language": "Dil",
+    "theme": "Tema"
+  },
+  "hero": {
+    "greet": "Merhaba, ben Mert",
+    "about": "Ben yazılım geliştirme alanında güçlü bir temele ve verimli çözümler üretme tutkusuna sahip bir dördüncü sınıf Bilgisayar Mühendisliği lisans öğrencisiyim.",
+    "resume": {
+      "button": "Özgeçmiş",
+      "link": "/resumes/mert-kasim-imran-kasim-2025.pdf"
+    },
+    "language": "Özgeçmişimi başka dilde almak için dil tercihinizi navigasyon barından değiştirebilirsiniz"
+  },
+  "technologies": {
+    "title": "Kullandığım teknolojiler",
+    "description": "Çeşitli programlama dilleri, frameworkler, araçlar, veritabanı yönetimi, betik oluşturma ve sanallaştırma teknolojileri konusunda deneyime sahibim."
+  },
+  "experience": {
+    "title": "Deneyimim ve Eğitimim",
+    "description": "Hala lisans öğrencisi olmama rağmen, bazı kişisel ve profesyonel deneyimlerim var",
+    "bots": {
+      "title": "Sosyal Medya Botları ve Betik Oluşturma",
+      "description": "Python ve Bash kullanarak sosyal medya botları ve küçük çaplı otomasyon betikleri oluşturmaya başladım"
+    },
+    "servers": {
+      "title": "Ev sunucuları ve otomasyon",
+      "description": "Eski, kullanılmayan bilgisayarlardan kendi ev sunucularımı oluşturmaya başladım ve daha sonra kullanmak üzere kendi kurulum kılavuzlarımı ve betiklerimi yazdım"
+    },
+    "university": {
+      "title": "Üniversite",
+      "description": "Kariyer yolculuğuma Ankara Bilim Üniversitesi Bilgisayar Mühendisliği bölümünde başladım"
+    },
+    "professional": {
+      "title": "İlk Profesyonel Projem",
+      "description": "Üniversitemin bir süreç otomasyon sistemine ve tanıtım web sitesini devam ettirecek birine ihtiyacı vardı, her iki projeyi de memnuniyetle üstüme aldım"
+    },
+    "graduation": {
+      "title": "Mezuniyet",
+      "description": "Bu yıl Haziran ayında 3,5+ not ortalamasıyla mezun olacağım"
+    }
+  },
+  "projects": {
+    "title": "Projelerim",
+    "readAll": "Hepsini Gör",
+    "link": "Proje Sayfası",
+    "goBack": "Geri Dön",
+    "technologies": "Kullanılan Teknolojiler:"
+  },
+  "footer": {
+    "copyright": "Telif Hakkı",
+    "reserved": "Her hakkı saklıdır"
+  },
+  "months": {
+    "january": "Ocak",
+    "february": "Şubat",
+    "march": "Mart",
+    "april": "Nisan",
+    "may": "Mayıs",
+    "june": "Haziran",
+    "july": "Temmuz",
+    "august": "Ağustos",
+    "september": "Eylül",
+    "october": "Ekim",
+    "november": "Kasım",
+    "december": "Aralık"
+  },
+  "errors": {
+    "404": {
+      "title": "Sayfa bulunamadı",
+      "subtitle": "Aradığınız sayfa bulunamadı"
+    },
+    "500": {
+      "title": "Sunucu Hatası",
+      "subtitle": "Bizim tarafımızda bir sorun oluştu"
+    },
+    "goBack": "Anasayfaya geri dön"
+  }
+}
