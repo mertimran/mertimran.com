@@ -96,5 +96,12 @@ export default defineNuxtConfig({
     content: true
   },
 
+  icon: {
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 256,
+    }
+  },
+
   telemetry: false,
 })
