@@ -10,7 +10,7 @@ const localePath = useLocalePath()
 const slug = computed(() => withLeadingSlash(String(route.params.slug)))
 
 const { data: page } = await useAsyncData(
-    'projects-' + slug.value,
+    `projects-${locale.value}-${slug.value}`,
     async () => {
       const collection = ('projects_' + locale.value) as keyof Collections
 
