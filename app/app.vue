@@ -25,7 +25,7 @@ const navigationItems = computed<NavigationMenuItem[]>(() => [
 
 const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
   label: locale.name,
-  icon: "i-circle-flags-lang-" + locale.code,
+  icon: "i-circle-flags:lang-" + locale.code,
   onSelect() {
     setLocale(locale.code);
   },
