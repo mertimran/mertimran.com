@@ -4,11 +4,11 @@ import type { Collections } from "@nuxt/content";
 useHead({
   title: $t("nav.home"),
   meta: [
-    { name: 'description', content: 'Portfolio website of Mert İmran' },
-    { property: 'og:title', content: $t("nav.home") },
-    { property: 'og:description', content: 'Portfolio website of Mert İmran' },
+    { name: "description", content: "Portfolio website of Mert İmran" },
+    { property: "og:title", content: $t("nav.home") },
+    { property: "og:description", content: "Portfolio website of Mert İmran" },
   ],
-})
+});
 
 const timeline = ref([
   {
@@ -107,7 +107,7 @@ const { data: projects } = await useAsyncData(
         src="~/assets/images/me.jpg"
         alt="Illustration"
         class="h-8/10 aspect-square object-fit rounded-lg"
-      >
+      />
     </UPageHero>
 
     <UPageSection
@@ -182,12 +182,10 @@ const { data: projects } = await useAsyncData(
           :key="index"
           v-bind="post"
           :description="truncate(post.description, 50)"
-          :to="localePath('projects') + post.path"
+          :to="post.link"
         >
           <template #authors>
-            <span class="font-bold">{{
-              $t("projects.technologies")
-            }}</span>
+            <span class="font-bold">{{ $t("projects.technologies") }}</span>
             <div class="flex flex-wrap gap-2">
               <UBadge
                 v-for="tag in post.tags"

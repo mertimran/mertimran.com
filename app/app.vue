@@ -1,36 +1,35 @@
 <script setup lang="ts">
-import type {DropdownMenuItem, NavigationMenuItem} from '@nuxt/ui'
+import type { DropdownMenuItem, NavigationMenuItem } from "@nuxt/ui";
 
-const route = useRoute()
-const { locale, locales, setLocale } = useI18n()
-const localePath = useLocalePath()
+const route = useRoute();
+const { locale, locales, setLocale } = useI18n();
+const localePath = useLocalePath();
 
 const navigationItems = computed<NavigationMenuItem[]>(() => [
   {
     label: $t("nav.home"),
-    to: localePath('/'),
-    active: route.path === '/' || route.path === '/tr',
+    to: localePath("/"),
+    active: route.path === "/" || route.path === "/tr",
   },
   {
     label: $t("nav.experience"),
-    to: localePath('/#experience'),
+    to: localePath("/#experience"),
     active: false,
   },
   {
     label: $t("nav.projects"),
-    to: localePath('projects'),
-    active: route.path.includes('/projects'),
+    to: localePath("projects"),
+    active: route.path.includes("/projects"),
   },
-])
+]);
 
 const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
   label: locale.name,
-  icon: 'i-circle-flags-lang-' + locale.code,
+  icon: "i-circle-flags-lang-" + locale.code,
   onSelect() {
-    setLocale(locale.code)
-  }
-}))
-
+    setLocale(locale.code);
+  },
+}));
 </script>
 
 <template>
@@ -44,16 +43,16 @@ const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
 
         <!-- Language Switcher -->
         <UDropdownMenu arrow :items="languageItems">
-          <UButton
-              icon="i-lucide-languages"
-              color="neutral"
-              variant="ghost"
-          />
+          <UButton icon="i-lucide-languages" color="neutral" variant="ghost" />
         </UDropdownMenu>
       </template>
 
       <template #body>
-        <UNavigationMenu :items="navigationItems" orientation="vertical" class="-mx-2.5" />
+        <UNavigationMenu
+          :items="navigationItems"
+          orientation="vertical"
+          class="-mx-2.5"
+        />
       </template>
     </UHeader>
 
@@ -66,38 +65,40 @@ const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
     <!-- Footer -->
     <UFooter>
       <template #left>
-        <p class="text-muted text-sm">{{ $t("footer.copyright") }} © {{ new Date().getFullYear() }}. {{ $t("footer.reserved") }}</p>
+        <p class="text-muted text-sm">
+          {{ $t("footer.copyright") }} © {{ new Date().getFullYear() }}.
+          {{ $t("footer.reserved") }}
+        </p>
       </template>
 
       <UNavigationMenu variant="link" />
 
       <template #right>
         <UButton
-            icon="i-simple-icons-gmail"
-            color="neutral"
-            variant="ghost"
-            to="mailto:mert.kasim.imran@gmail.com"
-            target="_blank"
-            aria-label="Mail"
+          icon="i-simple-icons-gmail"
+          color="neutral"
+          variant="ghost"
+          to="mailto:mert.kasim.imran@gmail.com"
+          target="_blank"
+          aria-label="Mail"
         />
         <UButton
-            icon="i-simple-icons-github"
-            color="neutral"
-            variant="ghost"
-            to="https://github.com/mertimran"
-            target="_blank"
-            aria-label="GitHub"
+          icon="i-simple-icons-github"
+          color="neutral"
+          variant="ghost"
+          to="https://github.com/mertimran"
+          target="_blank"
+          aria-label="GitHub"
         />
         <UButton
-            icon="i-simple-icons-linkedin"
-            color="neutral"
-            variant="ghost"
-            to="https://linkedin.com/in/mertimran"
-            target="_blank"
-            aria-label="LinkedIn"
+          icon="i-simple-icons-linkedin"
+          color="neutral"
+          variant="ghost"
+          to="https://linkedin.com/in/mertimran"
+          target="_blank"
+          aria-label="LinkedIn"
         />
       </template>
     </UFooter>
-
   </UApp>
 </template>
