@@ -45,7 +45,7 @@
   },
   "projects": {
     "title": "Projelerim",
-    "readAll": "Hepsini Gör",
+    "viewAll": "Hepsini Gör",
     "link": "Proje Sayfası",
     "goBack": "Geri Dön",
     "technologies": "Kullanılan Teknolojiler:"

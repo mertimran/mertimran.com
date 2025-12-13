@@ -45,7 +45,7 @@
   },
   "projects": {
     "title": "Projects",
-    "readAll": "Read All",
+    "viewAll": "View All",
     "link": "Project Page",
     "goBack": "Go Back",
     "technologies": "Technologies Used:"

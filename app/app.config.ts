@@ -11,5 +11,10 @@ export default defineAppConfig({
       secondary: "purple",
       tertiary: "indigo",
     },
+    timeline: {
+      slots: {
+        date: "text-muted text-xs/5",
+      },
+    },
   },
 });

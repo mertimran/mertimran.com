@@ -43,7 +43,12 @@ const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
 
         <!-- Language Switcher -->
         <UDropdownMenu arrow :items="languageItems">
-          <UButton icon="i-lucide-languages" color="neutral" variant="ghost" />
+          <UButton
+            icon="i-lucide-languages"
+            color="neutral"
+            variant="ghost"
+            aria-label="Change Language"
+          />
         </UDropdownMenu>
       </template>
 
@@ -58,7 +63,9 @@ const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
 
     <UMain>
       <NuxtLayout>
-        <NuxtPage />
+        <main>
+          <NuxtPage />
+        </main>
       </NuxtLayout>
     </UMain>
 
@@ -80,7 +87,7 @@ const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
           variant="ghost"
           to="mailto:mert.kasim.imran@gmail.com"
           target="_blank"
-          aria-label="Mail"
+          aria-label="Contact me by Mail"
         />
         <UButton
           icon="i-simple-icons-github"
@@ -88,7 +95,7 @@ const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
           variant="ghost"
           to="https://github.com/mertimran"
           target="_blank"
-          aria-label="GitHub"
+          aria-label="Visit my GitHub profile"
         />
         <UButton
           icon="i-simple-icons-linkedin"
@@ -96,7 +103,7 @@ const languageItems: DropdownMenuItem[] = locales.value.map((locale) => ({
           variant="ghost"
           to="https://linkedin.com/in/mertimran"
           target="_blank"
-          aria-label="LinkedIn"
+          aria-label="Visit my LinkedIn profile"
         />
       </template>
     </UFooter>

@@ -74,6 +74,7 @@ const { data: projects } = await useAsyncData(
             color="neutral"
             :to="$t('hero.resume.link')"
             target="_blank"
+            :aria-label="`Read my resume, $t('hero.language')`"
           >
             {{ $t("hero.resume.button") }}
           </UButton>
@@ -85,6 +86,7 @@ const { data: projects } = await useAsyncData(
           color="neutral"
           variant="outline"
           class="rounded-full"
+          aria-label="Contact me by Mail"
         />
         <UButton
           icon="i-simple-icons-linkedin"
@@ -93,6 +95,7 @@ const { data: projects } = await useAsyncData(
           color="neutral"
           variant="outline"
           class="rounded-full"
+          aria-label="Visit my GitHub profile"
         />
         <UButton
           icon="i-simple-icons-github"
@@ -101,12 +104,14 @@ const { data: projects } = await useAsyncData(
           color="neutral"
           variant="outline"
           class="rounded-full"
+          aria-label="Visit my LinkedIn profile"
         />
       </template>
-      <img
-        src="~/assets/images/me.jpg"
+      <NuxtImg
+        src="/images/mert.webp"
         alt="Illustration"
         class="h-8/10 aspect-square object-fit rounded-lg"
+        preload
       />
     </UPageHero>
 
@@ -169,7 +174,7 @@ const { data: projects } = await useAsyncData(
         :title="$t('projects.title')"
         :links="[
           {
-            label: $t('projects.readAll'),
+            label: $t('projects.viewAll'),
             icon: 'i-lucide-eye',
             to: localePath('projects'),
           },
