@@ -1,5 +1,21 @@
 <script setup lang="ts">
 import type { Collections } from "@nuxt/content";
+import type { DropdownMenuItem } from "@nuxt/ui";
+
+const resumeItems: DropdownMenuItem[] = [
+  {
+    label: "English",
+    icon: "i-circle-flags-gb",
+    to: "/resumes/mert-kasim-imran-april-2026.pdf",
+    target: "_blank",
+  },
+  {
+    label: "Türkçe",
+    icon: "i-circle-flags-tr",
+    to: "/resumes/mert-kasim-imran-nisan-2026.pdf",
+    target: "_blank",
+  },
+];
 
 useHead({
   title: $t("nav.home"),
@@ -16,6 +32,12 @@ const timeline = ref([
     title: $t("experience.graduation.title"),
     description: $t("experience.graduation.description"),
     icon: "i-lucide-graduation-cap",
+  },
+  {
+    date: `${$t("months.february")}, 2026`,
+    title: $t("experience.internship.title"),
+    description: $t("experience.internship.description"),
+    icon: "i-lucide-briefcase-business",
   },
   {
     date: `${$t("months.february")}, 2024`,
@@ -68,17 +90,24 @@ const { data: projects } = await useAsyncData(
       class="xl:-mt-40 2xl:my-auto xl:ml-24"
     >
       <template #links>
-        <UTooltip :delay-duration="0" arrow :text="$t('hero.language')">
+        <UFieldGroup>
           <UButton
             icon="i-lucide-file-text"
             color="neutral"
             :to="$t('hero.resume.link')"
             target="_blank"
-            :aria-label="`Read my resume, $t('hero.language')`"
+            :aria-label="$t('hero.resume.button')"
           >
             {{ $t("hero.resume.button") }}
           </UButton>
-        </UTooltip>
+          <UDropdownMenu :items="resumeItems" :content="{ align: 'end' }">
+            <UButton
+              color="neutral"
+              icon="i-lucide-chevron-down"
+              :aria-label="$t('hero.language')"
+            />
+          </UDropdownMenu>
+        </UFieldGroup>
         <UButton
           icon="i-simple-icons-gmail"
           to="mailto:mert.kasim.imran@gmail.com"
@@ -166,7 +195,7 @@ const { data: projects } = await useAsyncData(
       :description="$t('experience.description')"
       orientation="horizontal"
     >
-      <UTimeline :items="timeline" :default-value="3" reverse />
+      <UTimeline :items="timeline" :default-value="4" reverse />
     </UPageSection>
 
     <UContainer>

@@ -11,7 +11,7 @@
     "about": "I am a fourth-year Computer Engineering undergraduate with a strong foundation in software development and a passion for creating efficient solutions.",
     "resume": {
       "button": "Resume",
-      "link": "/resumes/mert-kasim-imran-november-2025.pdf"
+      "link": "/resumes/mert-kasim-imran-april-2026.pdf"
     },
     "language": "To get my resume in another language, change your language preferences from the navigation bar"
   },
@@ -37,6 +37,10 @@
     "professional": {
       "title": "First Professional Project",
       "description": "My university needed a process automation system and someone to maintain the promotional website, I gladly took both of these projects"
+    },
+    "internship": {
+      "title": "Erasmus Internship",
+      "description": "Completed my mandatory internship in abics GmbH, a SAP solutions company in Bremen, Germany"
     },
     "graduation": {
       "title": "Graduation",

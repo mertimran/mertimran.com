@@ -11,7 +11,7 @@
     "about": "Ben yazılım geliştirme alanında güçlü bir temele ve verimli çözümler üretme tutkusuna sahip bir dördüncü sınıf Bilgisayar Mühendisliği lisans öğrencisiyim.",
     "resume": {
       "button": "Özgeçmiş",
-      "link": "/resumes/mert-kasim-imran-kasim-2025.pdf"
+      "link": "/resumes/mert-kasim-imran-nisan-2026.pdf"
     },
     "language": "Özgeçmişimi başka dilde almak için dil tercihinizi navigasyon barından değiştirebilirsiniz"
   },
@@ -37,6 +37,10 @@
     "professional": {
       "title": "İlk Profesyonel Projem",
       "description": "Üniversitemin bir süreç otomasyon sistemine ve tanıtım web sitesini devam ettirecek birine ihtiyacı vardı, her iki projeyi de memnuniyetle üstüme aldım"
+    },
+    "internship": {
+      "title": "Erasmus Stajı",
+      "description": "Almanya’nın Bremen şehrindeki SAP çözümleri şirketi abics GmbH’da zorunlu stajımı tamamladım"
     },
     "graduation": {
       "title": "Mezuniyet",
