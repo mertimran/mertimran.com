@@ -14,7 +14,13 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/i18n",
     "@nuxtjs/device",
+    "@nuxtjs/sitemap",
   ],
+
+  site: {
+    url: "https://mertimran.com",
+    name: "Mert İmran",
+  },
 
   app: {
     head: {
@@ -36,38 +42,7 @@ export default defineNuxtConfig({
   content: {
     build: {
       markdown: {
-        highlight: {
-          theme: {
-            default: "light-plus",
-            dark: "material-theme-darker",
-          },
-          langs: [
-            "blade",
-            "css",
-            "html",
-            "js",
-            "ts",
-            "json",
-            "yaml",
-            "toml",
-            "xml",
-            "jsx",
-            "tsx",
-            "vue",
-            "md",
-            "mdc",
-            "mdx",
-            "php",
-            "python",
-            "kotlin",
-            "java",
-            "nginx",
-            "shell",
-            "diff",
-            "sql",
-            "tex",
-          ],
-        },
+        highlight: false,
         toc: {
           depth: 2,
         },

@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow:
+
+Sitemap: https://mertimran.com/sitemap.xml

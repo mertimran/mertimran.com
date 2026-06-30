@@ -3,6 +3,15 @@ import type { Collections } from "@nuxt/content";
 
 const { locale } = useI18n();
 
+useHead({
+  title: $t("projects.title"),
+  meta: [
+    { name: "description", content: "Projects by Mert İmran" },
+    { property: "og:title", content: $t("projects.title") },
+    { property: "og:description", content: "Projects by Mert İmran" },
+  ],
+});
+
 const { data: projects } = await useAsyncData(
   `projects-all-${locale.value}`,
   async () => {

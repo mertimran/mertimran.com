@@ -19,6 +19,7 @@
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "^4.2.1",
     "@nuxtjs/i18n": "10.2.1",
+    "@nuxtjs/sitemap": "^8.2.2",
     "better-sqlite3": "^12.4.6",
     "eslint": "^9.39.1",
     "nuxt": "^4.2.1",

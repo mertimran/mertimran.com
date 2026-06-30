@@ -8,10 +8,10 @@
   },
   "hero": {
     "greet": "Merhaba, ben Mert",
-    "about": "Ben yazılım geliştirme alanında güçlü bir temele ve verimli çözümler üretme tutkusuna sahip bir dördüncü sınıf Bilgisayar Mühendisliği lisans öğrencisiyim.",
+    "about": "Ben yazılım geliştirme alanında güçlü bir temele ve verimli çözümler üretme tutkusuna sahip bir Bilgisayar Mühendisliği mezunuyum.",
     "resume": {
       "button": "Özgeçmiş",
-      "link": "/resumes/mert-kasim-imran-nisan-2026.pdf"
+      "link": "/resumes/mert-kasim-imran-temmuz-2026.pdf"
     },
     "language": "Özgeçmişimi başka dilde almak için dil tercihinizi navigasyon barından değiştirebilirsiniz"
   },
@@ -21,7 +21,7 @@
   },
   "experience": {
     "title": "Deneyimim ve Eğitimim",
-    "description": "Hala lisans öğrencisi olmama rağmen, bazı kişisel ve profesyonel deneyimlerim var",
+    "description": "Yazılım mühendisliğindeki kişisel ve profesyonel yolculuğum",
     "bots": {
       "title": "Sosyal Medya Botları ve Betik Oluşturma",
       "description": "Python ve Bash kullanarak sosyal medya botları ve küçük çaplı otomasyon betikleri oluşturmaya başladım"
@@ -44,7 +44,7 @@
     },
     "graduation": {
       "title": "Mezuniyet",
-      "description": "Bu yıl Haziran ayında 3,5+ not ortalamasıyla mezun olacağım"
+      "description": "Ankara Bilim Üniversitesi'nden 3,41 AGNO ile sınıfımın birincisi olarak mezun oldum"
     }
   },
   "projects": {

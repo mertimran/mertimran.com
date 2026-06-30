@@ -22,3 +22,9 @@ logs
 .env
 .env.*
 !.env.example
+
+# Nix
+flake.nix
+flake.lock
+.direnv/
+.envrc

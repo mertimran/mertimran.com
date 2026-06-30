@@ -6,13 +6,13 @@ const resumeItems: DropdownMenuItem[] = [
   {
     label: "English",
     icon: "i-circle-flags-gb",
-    to: "/resumes/mert-kasim-imran-april-2026.pdf",
+    to: "/resumes/mert-kasim-imran-july-2026.pdf",
     target: "_blank",
   },
   {
     label: "Türkçe",
     icon: "i-circle-flags-tr",
-    to: "/resumes/mert-kasim-imran-nisan-2026.pdf",
+    to: "/resumes/mert-kasim-imran-temmuz-2026.pdf",
     target: "_blank",
   },
 ];
@@ -124,7 +124,7 @@ const { data: projects } = await useAsyncData(
           color="neutral"
           variant="outline"
           class="rounded-full"
-          aria-label="Visit my GitHub profile"
+          aria-label="Visit my LinkedIn profile"
         />
         <UButton
           icon="i-simple-icons-github"
@@ -133,7 +133,7 @@ const { data: projects } = await useAsyncData(
           color="neutral"
           variant="outline"
           class="rounded-full"
-          aria-label="Visit my LinkedIn profile"
+          aria-label="Visit my GitHub profile"
         />
       </template>
       <NuxtImg
@@ -195,7 +195,7 @@ const { data: projects } = await useAsyncData(
       :description="$t('experience.description')"
       orientation="horizontal"
     >
-      <UTimeline :items="timeline" :default-value="4" reverse />
+      <UTimeline :items="timeline" :default-value="5" reverse />
     </UPageSection>
 
     <UContainer>

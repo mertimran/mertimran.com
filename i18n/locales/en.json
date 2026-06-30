@@ -8,10 +8,10 @@
   },
   "hero": {
     "greet": "Hi, I'm Mert",
-    "about": "I am a fourth-year Computer Engineering undergraduate with a strong foundation in software development and a passion for creating efficient solutions.",
+    "about": "I am a Computer Engineering graduate with a strong foundation in software development and a passion for creating efficient solutions.",
     "resume": {
       "button": "Resume",
-      "link": "/resumes/mert-kasim-imran-april-2026.pdf"
+      "link": "/resumes/mert-kasim-imran-july-2026.pdf"
     },
     "language": "To get my resume in another language, change your language preferences from the navigation bar"
   },
@@ -21,7 +21,7 @@
   },
   "experience": {
     "title": "Experience & Education",
-    "description": "While I still am a undergraduate student, I do have some personal and professional experience",
+    "description": "My personal and professional journey in software engineering",
     "bots": {
       "title": "Social Media Bots and Scripting",
       "description": "Started building social media bots and automated small tasks using Python and Bash"
@@ -44,7 +44,7 @@
     },
     "graduation": {
       "title": "Graduation",
-      "description": "I will be graduating this year in June with 3.5+ GPA"
+      "description": "Graduated at the top of my class from Ankara Science University with a 3.41 GPA"
     }
   },
   "projects": {
